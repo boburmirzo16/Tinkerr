@@ -1,0 +1,329 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+ody{
+    line-height: 1.5;
+}
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    max-width: 90%;
+    margin: 0 auto;
+}
+a{
+    color: #000;
+}
+img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/img/photo_2023-11-28_14-43-29\ \(3\).jpg);
+}
+.navigation{
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(99, 99, 99);
+    position: fixed;
+
+}
+.navbar{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav__logo a{
+    font-size: 2.3rem;
+    color: white;
+}
+.nav__logo a span{
+    font-size: 2.8rem;
+    color: #6f6f00;
+    font-weight: bold;
+}
+.navbar__nav a{
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 1.3rem;
+    color: white;
+}
+.banner{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.banner .conatiner button:hover{
+    background-color: red;
+    color: #000;
+    transition: all 0.5s linear;
+}
+.banner h1{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
+.banner a{
+    color: #fff;
+}
+.banner h1 span{
+    color: aqua;
+}
+.banner .tinker{
+    color: yellow;
+}
+.banner p{
+    color: rgb(20000, 20000, 20000);
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+}
+.banner button{
+    padding: 10px 30px;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 30px;
+    border: 1px solid #fff;
+}
+.banner button a{
+    font-size: 1.3rem;
+    color: #000;
+    font-weight: 900;
+}
+.about{
+    width: 100%;
+    padding: 4rem 0;
+    background-image: url(/img/photo_2023-11-28_14-43-25.jpg);
+}
+.about .container .about__content .item button:hover{
+    background-color: yellow;
+    color: red;
+}
+.about__content{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 2rem;
+    text-align: center;
+    color: #fff;
+}
+.about__content .item .fa-solid{
+    padding: 10px 20px;
+    background-color: yellow;
+    color: #fff;
+    border: 1px solid white;
+    font-size: 3rem;
+    border-radius: 80%;
+    margin-bottom: 2rem;
+}
+.about .container .about__content .item button:hover{
+    background-color: aqua;
+    columns: red;
+}
+.about__content .item .fa-regular{
+    padding: 10px 20px;
+    background-color: yellow;
+    color: #fff;
+    border: 1px solid white;
+    font-size: 3rem;
+    border-radius: 100%;
+    margin-bottom: 2rem;
+}
+.about__content .item h2{
+    font-size: 1.5rem;
+    border-bottom: 1px solid white;
+    margin-bottom: 1rem;
+}
+.about__content .item button{
+    padding: 7px 20px;
+    margin-top: 2rem;
+    font-size: 1.3rem;
+    border-radius: 30px;
+    background-color: aqua;
+    color: #fff;
+    border: 0;
+}
+.our{
+    width: 100%;
+    padding: 4rem 0;
+    background-color: aqua;
+
+}
+.our__content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 3rem;
+    color: #fff;
+}
+.our__content .item{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+    box-shadow: 1px 1px 1px black;
+    height: 60vh;
+    padding: 2rem 2rem;
+    background-color: #fff;
+    box-shadow: 0 0 20px red;
+}
+.our__content .text h2{
+    font-size: 2rem;
+    border-bottom: 1px solid white;
+    margin-bottom: 1rem;
+    letter-spacing: 1px;
+}
+.our__content .text a{
+    color: #fff;
+    display: flex;
+    margin-top: 1rem;
+}
+.our__content .text .bran{
+    color: yellow;
+}
+.student{
+    width: 100%;
+    padding: 2rem 0;
+    background-color: yellow;
+    text-align: center;
+}
+.student .item {
+    background-color: #fff;
+    padding: 2rem ;
+}
+.student span{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    margin-top: 1rem;
+}
+.blog{
+    width: 100%;
+    padding: 4rem 0;
+    background-image: url(/img/photo_2023-11-28_14-43-25.jpg);
+}
+.blog__content{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 1rem;
+    color: #fff;
+}
+.blog__content .text{
+    padding: 2rem 2rem;
+    background-color: #1d141497;
+}
+.blog__content .text h2{
+    font-size: 2rem;
+    border-bottom: 3px solid #fff;
+    margin-bottom: 2rem;
+}
+.blog__content .text button{
+    display: flex;
+    margin-top: 1rem;
+    width: 100%;
+    padding: 10px 30px;
+    font-size: 1.3rem;
+    border: 0;
+    transition: all 0.5s linear;
+}
+.blog__content .text .max{
+    background-color: yellow;
+    color: #fff;
+}
+.blog__content .text button:hover{
+    background-color: yellow;
+    color: #fff;
+}
+.blog__content .item{
+    background-color: #fff;
+    color: #000;
+    padding: 2rem 2rem;
+}
+.blog__content .item i{
+    display: block;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    font-size: 1.3rem;
+}
+.blog__content .item span{
+    color: aqua;
+    margin-bottom: 1rem;
+    display: block;
+}
+.contact{
+    width: 100%;
+    padding: 4rem 0;
+    background-color: gray;
+    text-align: center;
+    color: #fff;
+}
+.contact .container button{
+    border-radius: 100vh;
+}
+.contact .item h2{
+    margin-bottom: 2rem;
+    border-bottom: 2px solid black;
+    display: inline;
+}
+.contact .container .item ,button{
+    background-color: blue;
+    color: yellow;
+    transition: all 0.5s linear;
+}
+.contact .item p{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.contact .item button{
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: aqua;
+    color: #fff;
+    border:0 ;
+}
+.map iframe{
+    width: 100%;
+
+}
+.footer{
+    width: 100%;
+    padding: 4rem 0;
+    background-color: rgb(80, 77, 77);
+    border: 1px solid black;
+}
+.footer__content{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 1rem;
+    color: #fff;
+}
+.footer__content .item a span{
+    color: #7A7A08;
+    font-weight: bold;
+}
+.footer__content .item a{
+    font-size: 1.2rem;
+    color: white;
+}
+.footer__content .item .fa-brands:hover{
+    background-color: yellow;
+    color: #fff;
+}
+.footer__content .item .fa-brands{
+    padding: 5px 5px;
+    background-color: #fff;
+    color: yellow;
+    border-radius: 100%;
+    transition: all 0.5s linear;
+}
+.navbar__nav .fa-bars{
+    font-size: 1.3rem;
+    color: #fff;
+    display: none;
+}
